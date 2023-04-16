@@ -1,0 +1,46 @@
+@import url("../../global/global.css");
+@import url("../../global/grid.css");
+.main {
+    background-color: #222d38;
+    height: 1000px;
+}
+.grid-top {
+    background: #1821299e;
+    border-bottom: 1px solid #888;
+    padding: 12px 15px;
+
+}
+.grid-top h3 {
+    color: #7aa6ce;
+    font-size: 13px;
+    font-weight: 150;
+}
+.grid-top span {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    background: var(--background-color-3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: #ff2070; 
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+
+.grid-bottom {
+    margin-bottom: 32px;
+}
+.test1{
+    height: 300px;
+    background-color: orange;
+}
+.test2{
+    height: 300px;
+    background-color: red;
+}
+@media (max-width:1023px) {
+    .item {
+       margin-bottom: 4px;
+    }
+}
