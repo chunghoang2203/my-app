@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import './Home.css'
 import '../../global/grid.css'
+import ProductItem from "../ProductItem";
 
 function Home() {
     return (
@@ -15,27 +16,32 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="row ">
+                <div className="row  main">
 
-                    <div className="col l-8 m-8 c-12 ">
-                        <div className="row small-gutters">
-                            <div className="col l-3 m-6 c-12 item">
-                                <div className="test1"></div>
+                    <div className="col l-8 m-12 c-12 product-list">
+                        <div className="row small-gutters ">
+                            <div className="col l-3 m-3 c-6 item">
+                                <ProductItem />
                             </div>
-                            <div className="col l-3 m-6 c-12 item">
-                                <div className="test1"></div>
+                            <div className="col l-3 m-3 c-6 item">
+                            <ProductItem />
                             </div>
-                            <div className="col l-3 m-6 c-12 item">
-                                <div className="test1"></div>
+                            <div className="col l-3 m-3 c-6 item">
+                            <ProductItem />
+
                             </div>
-                            <div className="col l-3 m-6 c-12 item">
-                                <div className="test1"></div>
+                            <div className="col l-3 m-3 c-6 item">
+                            <ProductItem />
                             </div>
+                            <div className="col l-3 m-3 c-6 item">
+                            <ProductItem />
+                            </div>
+                            
                         </div>
                     </div>
 
-                    <div className="col l-4 m-4 c-0">
-                        <div className="test2"></div>
+                    <div className="col l-4 m-12 c-12 sidebar">
+                        <div className="product-sidebar"></div>
                     </div>
                 </div>
             </div>

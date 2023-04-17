@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
-import SearchBar from "../../features/Header/SearchBar";
-import SearchIcon from "../../features/Header/SearchIcon";
 import SearchMobile from "../../features/Header";
 
 function Header() {
@@ -21,7 +19,7 @@ function Header() {
           </div>
           <div className="header__top-search">
             <div className="search--icon">
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <i className="fa-solid fa-magnifying-glass"></i>
             </div>
             <div className="search--input">
               <input type="text" placeholder="Search movies" />
@@ -31,21 +29,21 @@ function Header() {
 
           <div className="header__top-btn ">
             <div className="icon-bookmark">
-              <i class="fa-regular fa-bookmark"></i>
+              <i className="fa-regular fa-bookmark"></i>
             </div>
             <button>Phim yêu thích</button>
           </div>
         </div>
         <div className="nav">
           <div className="mobile-icon-bars">
-            <i class="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars"></i>
           </div>
           <div className="mobile-icon-left">
             <div className="mobile-icon-search">
               <SearchMobile />
             </div>
             <div className="mobile-icon-bookmark">
-              <i class="fa-regular fa-bookmark"></i>
+              <i className="fa-regular fa-bookmark"></i>
             </div>
           </div>
 

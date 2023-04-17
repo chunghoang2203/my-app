@@ -4,7 +4,6 @@ function Footer() {
     return (
     <div>
         footer.....
-        <button className="btn no-gutters">chi 1 lan thoi</button>
     </div>
     );
 }
