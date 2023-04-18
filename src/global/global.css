@@ -12,9 +12,9 @@
 }
 
 :root {
-    --background-color-1: linear-gradient(to right, #ff00cc 0%,  #ff00cc 30%, #333399 100%);
+    --background-color-1:  linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%);
     --background-color-2: linear-gradient(to right,  #333399 0%,  #ff00cc 51%, #ff00cc 100%);
     --background-color-3: linear-gradient(to right,#ff8a00,#ff2070);
-    --background-color-4: linear-gradient(to right,   #C02425 0%, #F0CB35 80%, #F0CB35 100%);
+    --background-color-4: linear-gradient(to right,  #C02425 0%,  #F0CB35  51%, #C02425 100%);
     --text-color: #ffa533;
 }
