@@ -1,6 +1,17 @@
+import ProductList from '../ProductList';
+import ListProductSidebar from '../ListSidebarProduct'
+import './Odd.css'
+
 function Odd() {
     return ( 
-        <h3>Phim le?</h3>
+        <div className='container'>
+            <div className='grid wide'>
+                <div className='row'>
+                    <ProductList />
+                    <ListProductSidebar />
+                </div>
+            </div>
+        </div>
      );
 }
 

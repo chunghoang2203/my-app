@@ -54,9 +54,9 @@ function ProductList() {
             <ProductItem />
           </div>
         </div>
-        <div>
-            <button className="product-list-btn">Xem tất cả</button>
-        </div>
+          <div>
+              <button className="product-list-btn">Xem tất cả</button>
+          </div> 
       </div>
     </>
   );

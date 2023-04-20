@@ -1,0 +1,64 @@
+@import url("../../global/global.css");
+.new {
+  position: relative;
+  display: flex;
+  margin-bottom: 32px;
+}
+/* .new::after {
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  width: 100%;
+  height: 0.2px;
+  background-color: #888;
+  opacity: 0.8;
+  box-sizing: border-box;
+} */
+.new-img {
+  overflow: hidden;
+}
+.new-img img {
+  width: 400px;
+  height: 200px;
+  border-radius: 8px;
+}
+.new:hover .new-img img {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+  /* opacity: 0.5; */
+  cursor: pointer;
+}
+.new-info {
+  margin-left: 20px;
+}
+.new-info h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  padding: 8px 0;
+  color: var(--text-color);
+}
+.info-time {
+  color: #888;
+}
+.info-time i {
+  font-size: 14px;
+  padding-right: 6px;
+}
+.info-time span {
+  font-size: 13px;
+}
+.info-btn {
+  font-size: 14px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #224361;
+  padding: 2px 12px;
+}
+.info-des {
+  font-size: 15px;
+  color: #888;
+  padding: 8px 0;
+}

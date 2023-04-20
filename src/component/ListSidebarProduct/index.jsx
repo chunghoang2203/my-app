@@ -5,7 +5,7 @@ import './ListSidebarProduct.css'
 function ListProductSidebar() {
   return (
 
-        <div className="col l-4 m-12 c-12 sidebar">
+        <div className="col l-4 m-0 c-0 sidebar">
             <div className="grid-top-title grid-border-bottom-2">
                 <span>trailer phim sắp ra mắt</span>
             </div>

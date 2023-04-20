@@ -11,7 +11,7 @@
 .product-sidebar:hover .sidebar-img img {
     transform: scale(1.2);
     transition: transform 0.5s ease;
-    opacity: 0.5;
+    /* opacity: 0.5; */
   }
 .product-sidebar:hover .sidebar-title {
     color: var(--text-color);

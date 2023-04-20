@@ -1,0 +1,13 @@
+.container {
+  background-color: #222d38;
+  height: 3000px;
+}
+.grid {
+  background: #1821299e;
+}
+.row {
+  margin: 8px 0;
+}
+/* .product-list-btn {
+    display: none;
+} */
